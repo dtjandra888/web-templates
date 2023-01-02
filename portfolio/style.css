@@ -65,6 +65,9 @@ h2 {
 p {
     font-size: 2rem;
     color: #e1bee7;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* Nav Bar stuff */
@@ -124,7 +127,10 @@ a:hover{ color:#f3cd05 }
 /* about section*/
 #about {
     text-align: center;
-    color: black
+    color: #373D3F;
+}
+#about p {
+    color: #373D3F;
 }
 
 /* project section */
@@ -176,11 +182,9 @@ a:hover{ color:#f3cd05 }
       0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
       0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
       0 100px 80px rgba(0, 0, 0, 0.12);
-    transition: all 2s, transform 0.5s, box_shadow 0.5s;
 }
 .project:hover {
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.6);
-    transform: scale(1.08);
 }
 .project-image {
     height: calc(100% - 6.8rem);
@@ -212,8 +216,20 @@ a:hover{ color:#f3cd05 }
     height: 80vh;
     padding: 0 2rem;
 }
-i {
-    height: 10px;
-    width: auto;
+#contact p{
+    color:#373D3F;
 }
 
+
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: #0c344e;
+    border-top: 4px solid #bfc8ea;
+ 
+}
+#foot{
+    color:#f3cd05;
+}
